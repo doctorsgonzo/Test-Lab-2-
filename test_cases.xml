@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<TEST program="golf.exe" timeout="60">
+    <!-- expected structure -->
+    <CASE id="test case ID">
+        <ARGUMENTS>options</ARGUMENTS>
+        <INPUT>filename</INPUT>
+        <OUTPUTDIR>directoryname</OUTPUTDIR>
+        <ARGUMENTSEXTRA>extra_options</ARGUMENTSEXTRA>
+        <OUTPUTFILE fileName="" expectedPath="" />
+        <OUTPUTCMD>fileName</OUTPUTCMD>
+    </CASE>
+
+    <!-- example structures -->
+    <CASE id="TC-1">
+        <ARGUMENTS>-h</ARGUMENTS>
+        <OUTPUTCMD>program_help_menu.txt</OUTPUTCMD>
+    </CASE>
+
+    <CASE id="TC-2">
+        <ARGUMENTS>-ct</ARGUMENTS>
+        <INPUT>default_in.txt</INPUT>
+        <OUTPUTDIR>golfout</OUTPUTDIR>
+        <OUTPUTFILE fileName="trank.rep" expectedPath="expect/rank_default.rep" />
+        <OUTPUTFILE fileName="course.rep" expectedPath="expect/course_default.rep" />
+        <OUTPUTCMD>default_rank_course.txt</OUTPUTCMD>
+    </CASE>
+</TEST>
+
