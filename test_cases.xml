@@ -24,5 +24,7 @@
         <OUTPUTFILE fileName="course.rep" expectedPath="expect/course_default.rep" />
         <OUTPUTCMD>default_rank_course.txt</OUTPUTCMD>
     </CASE>
+
+    <!-- edit -- >
 </TEST>
 
