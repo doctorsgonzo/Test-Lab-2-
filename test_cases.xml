@@ -6,7 +6,7 @@
         <INPUT>filename</INPUT>
         <OUTPUTDIR>directoryname</OUTPUTDIR>
         <ARGUMENTSEXTRA>extra_options</ARGUMENTSEXTRA>
-        <OUTPUTFILE fileName="" expectedPath="" />
+        <OUTPUTFILE fileName="aa" expectedPath="bb" />
         <OUTPUTCMD>fileName</OUTPUTCMD>
     </CASE>
 
@@ -25,6 +25,6 @@
         <OUTPUTCMD>default_rank_course.txt</OUTPUTCMD>
     </CASE>
 
-    <!-- edit -- >
+    <!-- edit -->
 </TEST>
 
