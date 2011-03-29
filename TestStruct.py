@@ -27,6 +27,7 @@ class TestStruct():
         self.inputFile              = InputFile                
         self.destinationDirectory   = DestinationDirectory
         self.extraParameters        = ExtraParameters
+        self.expectedConsole        = ExpectedConsole
         self.expectedFiles          = ExpectedFiles
     # __init__
 
